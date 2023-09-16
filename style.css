@@ -1,0 +1,35 @@
+body {
+    background-color: #fcfc62 !important; /* !important overrides bootstrap changes */
+}
+
+.container {
+    
+    height: 100vh;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.counter {
+    border: 5px solid black;
+    width: 600px;
+    height: 350px;
+    margin: auto;
+    padding: 25px;
+    text-align: center;
+    background-color: #feffea;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; /* This makes the increase and decrease buttons under the counter and 0 and aligns it under the h1 */
+}
+
+.counter h1 {
+    font-size: 2rem;
+}
+
+#count {
+    font-size: 9rem;
+}
